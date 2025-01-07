@@ -14,7 +14,7 @@ export class VpcCdkProjectStack extends cdk.Stack {
 
     // Create the VPC
     this.vpc = new ec2.Vpc(this, 'MyVPC', {
-      maxAzs: 2, // Using 2 availability zones
+      maxAzs: 2, // Using 2 availability 
       subnetConfiguration: [
         {
           name: 'Public',
